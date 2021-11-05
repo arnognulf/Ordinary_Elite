@@ -1,0 +1,6 @@
+* Remove fi and fl ligatures.
+* M is the widest US-ASCII character at 1429, therefore we set ALL letters to this width (yes, OE is at 2085, but I don't speak that letter).
+  in order for a typeface to be monospace, all the letters needs to be exactly the same width.
+* In order for apostrophes and umlauts to not get dislocated, all glyph references are unlinked (yes there is probably a better way. beats me).
+* Center in width.
+* Rename.
